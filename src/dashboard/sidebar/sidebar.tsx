@@ -10,6 +10,7 @@ export const Sidebar = () => {
          <div className='h-[10%] w-full flex justify-center items-center'>
             <Avatar classes='h-10 w-10 border'>
               <img className='w-8 h-8 rounded-full bg-black' src={avatar} alt="" />
+              
             </Avatar>
          </div>
     </aside>
