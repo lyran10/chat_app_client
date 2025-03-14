@@ -2,6 +2,7 @@ import React from 'react'
 import { Icon } from './icon'
 import { Avatar } from '../../common/avatar'
 import avatar from "../../images/avatar.png"
+import { Nav } from './nav/nav'
 
 export const Sidebar = () => {
   return (
@@ -12,6 +13,7 @@ export const Sidebar = () => {
               <img className='w-8 h-8 rounded-full bg-black' src={avatar} alt="" />
             </Avatar>
          </div>
+         <Nav/>
     </aside>
   )
 }
