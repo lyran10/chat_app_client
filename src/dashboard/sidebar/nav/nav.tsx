@@ -3,17 +3,18 @@ import { FaMessage, FaUserGroup } from "react-icons/fa6";
 import { NavItems } from './navItems';
 
 export const Nav = () => {
-  const iconClasses = ``
   const items = [
     {
       id : "chats",
       text : "Chats",
-      icon : <FaMessage className={iconClasses}/>,
+      icon : <FaMessage/>,
+      moveCursor : "translate-y-0"
     },
     {
       id : "teams",
       text : "Teams",
-      icon : <FaUserGroup  className={iconClasses}/>,
+      icon : <FaUserGroup/>,
+      moveCursor : "translate-y-[50px]"
     },
   ]
   return (
